@@ -1,16 +1,13 @@
 #!/bin/bash
 
-
-
 FILE=input.pdf
-COUNTER=1
-INCREMENT=20
+INCREMENT=40
 SHORTEDGE=1
 OUTPUTDIR="$FILE-zines"
 
 rm -rf $OUTPUTDIR
 mkdir "$OUTPUTDIR"
-echo "Splitting $FILE into $INCREMENT chunks"
+echo "Splitting $FILE into chunks of $INCREMENT pages"
  ./cpdf $FILE -split -chunk $INCREMENT -o ./"$OUTPUTDIR"/%%%.pdf
 
 cd $OUTPUTDIR
