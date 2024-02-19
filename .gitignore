@@ -1,0 +1,4 @@
+*.pdf
+cpdf
+.DS_Store
+Thumbs.db
