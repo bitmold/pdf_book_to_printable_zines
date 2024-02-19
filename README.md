@@ -18,7 +18,16 @@ SHORTEDGE=1 # define this to apply --short-edge arg with pdfbook2
 - `cpdf` https://community.coherentpdf.com/
 - `pdfbook2` https://github.com/jenom/pdfbook2
 
-If you don't feel like building `cpdf` binaries can be obtained from its git repo by running `git submodule update --init --recursive`...
+### `cpdf`
+
+If you don't feel like building it, `cpdf` binaries can be obtained from its git repo by running `git submodule update --init --recursive`...
+
+### `pdfbook2`
+
+On Debian: `sudo apt-get install texlive-extra-utils`
+
+On Mac: `brew install --cask mactex`
+
 
 ## Inspiration 
 
