@@ -1,8 +1,8 @@
 #!/bin/bash
 
-FILE=input.pdf
-INCREMENT=40
-SHORTEDGE=1
+FILE=input.pdf # name of PDF you want to want to zine-ify
+INCREMENT=40   # this makes a 40/2=20 page zine (since it's printed double sided)
+SHORTEDGE=1    # define this to apply --short-edge arg with pdfbook2 
 OUTPUTDIR="$FILE-zines"
 
 rm -rf $OUTPUTDIR

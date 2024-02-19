@@ -18,6 +18,8 @@ SHORTEDGE=1 # define this to apply --short-edge arg with pdfbook2
 - `cpdf` https://community.coherentpdf.com/
 - `pdfbook2` https://github.com/jenom/pdfbook2
 
+If you don't feel like building `cpdf` binaries can be obtained from its git repo by running `git submodule update --init --recursive`...
+
 ## Inspiration 
 
 "Intro to pdfbook2" zine from Iffy Books https://iffybooks.net/wp-content/uploads/zines/Iffy_Books_pdfbook2_screen.pdf turned me on to `pdfbook2`
